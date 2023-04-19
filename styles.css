@@ -117,9 +117,19 @@
   overflow: hidden;
   margin-left: 10%; 
 }
+@media (max-height: 800px){
+  .text{
+    font-size: 22px;
+  }
+}
+@media (max-height: 400px){
+  .text{
+    font-size: 18px;
+  }
+}
 @media (max-width: 1200px){
   .text{
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media (max-width: 900px){
@@ -185,6 +195,21 @@
   align-items: center;
 }
 @media (max-width: 900px){
+  .languages .fa-css3-alt{
+    font-size: 40px;
+  }
+  .languages .fa-html5{
+    font-size: 40px;
+  }
+  .languages .fa-square-js{
+    font-size: 40px;
+  }
+  #logoc img{
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-height: 700px){
   .languages .fa-css3-alt{
     font-size: 40px;
   }
