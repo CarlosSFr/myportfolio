@@ -280,6 +280,12 @@
   align-items: center;
   text-align: center;
 }
+@media (max-width: 900px){
+  .format-projects{
+    height: 100px;
+    width: 130px;
+  }
+}
 .format-projects:hover{
   top:-4px;
   transform:scale(1.01);
