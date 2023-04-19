@@ -115,7 +115,7 @@
   margin-top: 10%;
   position: absolute;
   overflow: hidden;
-  margin-left: 10%;
+  margin-left: 10%; 
 }
 @media (max-width: 1200px){
   .text{
@@ -351,3 +351,11 @@
 }
 
 /*CONTATO===============================================*/
+
+::-webkit-scrollbar{
+  background-color: black;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-two);
+}
